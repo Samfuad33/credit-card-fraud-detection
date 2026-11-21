@@ -1,0 +1,16 @@
+# Python / data
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset (20 MB) — not committed on purpose.
+# Anyone cloning downloads it from Zenodo record 21511985 (CC BY 4.0)
+# and saves it as data/fraud_tests_export.csv; see README "Reproduce".
+# The notebook and model.py both read that path.
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
